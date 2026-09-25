@@ -1,4 +1,4 @@
-### Tally
+### ♠️ Tally
 ---
 
 Tally is a minimalist productivity tool that helps centre your “mental castle” in order to get things done.
