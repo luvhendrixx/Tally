@@ -15,13 +15,13 @@ import com.hendrixx.tally.ui.theme.TallyTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+        super.onCreate(savedInstanceState) // let the parent init themselves
         enableEdgeToEdge()
         setContent {
             TallyTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Jimmy",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -42,6 +42,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     TallyTheme {
-        Greeting("Android")
+        Greeting("ChatGPT")
     }
 }
